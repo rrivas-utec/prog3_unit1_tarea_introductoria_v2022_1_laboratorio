@@ -1,5 +1,6 @@
 #include "../redirect_io.h"
-../PC1.h
+../matrix.h
+../number.h
 
 int main() {
     question_1_1();
