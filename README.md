@@ -14,14 +14,14 @@ Desarrollar una matriz polimórfica que acepte diferentes tipos numéricos (ente
   
 **Use Case:**  
 ```cpp
-    utec::matrix m1(4, 5);
+    utec::matrix_t m1(4, 5);
     for (int i = 0; i < m1.row_size(); ++i) {
         for (int j = 0; j < m1.col_size(); ++j) {
             m1(i, j) = new integer_t(rand() % 100);
         }
     }
     std::cout << m1;
-    utec::matrix m2 = m1;
+    utec::matrix_t m2 = m1;
     
     for (int i = 0; i < m2.row_size(); ++i) {
         for (int j = 0; j < m2.col_size(); ++j) {
