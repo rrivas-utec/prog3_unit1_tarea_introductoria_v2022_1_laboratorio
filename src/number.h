@@ -7,7 +7,22 @@
 
 
 class number_t {
+public:
+  virtual void print(ostream& os) = 0;
+};
 
+class real_t {
+public:
+  virtual void print(ostream& os) {
+    os << value;
+  }
+};
+
+class real_t {
+public:
+  virtual void print(ostream& os) {
+    os << value;
+  }
 };
 
 
