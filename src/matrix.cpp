@@ -4,6 +4,3 @@
 
 #include "matrix.h"
 
-utec::matrix_t::matrix_t(utec::SIZE_TYPE nrow, utec::SIZE_TYPE ncol): nrow(nrow), ncol(ncol) {
-
-}
